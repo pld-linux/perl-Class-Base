@@ -6,7 +6,7 @@
 %define	pdir	Class
 %define	pnam	Base
 Summary:	Class::Base - useful base class for deriving other modules
-#Summary(pl):	
+Summary(pl):	Class::Base - klasa bazowa przydatna do tworzenia innych modu³ów
 Name:		perl-Class-Base
 Version:	0.03
 Release:	1
@@ -25,11 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module implements a simple base class from which other modules
 can be derived, thereby inheriting a number of useful methods such as
-C<new()>, C<init()>, C<params()>, C<clone()>, C<error()> and
-C<debug()>.
+new(), init(), params(), clone(), error() and debug().
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ ten zawira implementacjê prostej klasy bazowej, która mo¿e
+s³u¿yæ do wywiedzenia z niej innych modu³ów, które tym samym
+odziedzicz± takie przydatne metody, jak new(), init(), params(),
+clone(), error() i debug().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
