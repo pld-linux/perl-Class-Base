@@ -26,7 +26,7 @@ can be derived, thereby inheriting a number of useful methods such as
 new(), init(), params(), clone(), error() and debug().
 
 %description -l pl
-Modu³ ten zawira implementacjê prostej klasy bazowej, która mo¿e
+Modu³ ten zawiera implementacjê prostej klasy bazowej, która mo¿e
 s³u¿yæ do wywiedzenia z niej innych modu³ów, które tym samym
 odziedzicz± takie przydatne metody, jak new(), init(), params(),
 clone(), error() i debug().
