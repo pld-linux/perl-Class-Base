@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Class
 %define	pnam	Base
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Base - useful base class for deriving other modules
 Summary(pl.UTF-8):	Class::Base - klasa bazowa przydatna do tworzenia innych modułów
 Name:		perl-Class-Base
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	526cc491f2a02991fce061bcc13e2fa8
+URL:		http://search.cpan.org/dist/Class-Base/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
