@@ -4,7 +4,6 @@
 
 %define	pdir	Class
 %define	pnam	Base
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Base - useful base class for deriving other modules
 Summary(pl.UTF-8):	Class::Base - klasa bazowa przydatna do tworzenia innych modułów
 Name:		perl-Class-Base
