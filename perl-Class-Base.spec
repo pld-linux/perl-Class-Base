@@ -8,7 +8,7 @@ Summary:	Class::Base - useful base class for deriving other modules
 Summary(pl.UTF-8):	Class::Base - klasa bazowa przydatna do tworzenia innych modułów
 Name:		perl-Class-Base
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
